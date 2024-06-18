@@ -1,0 +1,27 @@
+.toggle {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(129, 85, 3);
+    transition: all 0.3s;
+
+    .ul {
+        margin: 50px 5px 0 5px;
+
+        li {
+            list-style: none;
+            padding: 10px;
+            border-bottom: 1px solid white;
+            color: white;
+        }
+    }
+
+    &.close {
+        left: -200px;
+    }
+
+    &.open {
+        left: 0px;
+    }
+}

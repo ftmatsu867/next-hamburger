@@ -6,7 +6,7 @@ const Header = ({isOpen,setIsOpen}) => {
     }
   return (
     <header className={styles.header}>
-        <div className={styles.container} onClick={doChange}>
+        <div className={styles.toggle} onClick={doChange}>
             <div className={isOpen?styles.close:styles.menu}></div>
             <div className={isOpen?styles.close:styles.menu}></div>
             <div className={isOpen?styles.close:styles.menu}></div>

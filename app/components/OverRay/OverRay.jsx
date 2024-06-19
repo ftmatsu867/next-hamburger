@@ -8,7 +8,7 @@ const OverRay = ({ isOpen, setIsOpen }) => {
         })
     }
     return (
-        <div className={isOpen ? styles.overRay : ""} onClick={doClick}></div>
+        <div className={isOpen ? styles.overRay : null} onClick={doClick}></div>
     )
 }
 
